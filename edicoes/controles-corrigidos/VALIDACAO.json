@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-24",
+  "emulator": "openMSX 21.0",
+  "result": "ALL_FOUR_EDITIONS_COMPLETED",
+  "input_method": "keyboard only; debugger observes memory to choose inputs; no game-memory writes, state injection or stage bypass",
+  "physical_hardware_tested": false,
+  "tests": [
+    {
+      "edition": "msx1",
+      "image": "MISTAR_MSX1.ROM",
+      "sha256": "79cab338e6d49606ee84044375351e19d9229e38f28fe6710126f20a736ad1cf",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "docking": "passed",
+      "security_segments_completed": 3,
+      "ending": "THIS ADVENTURE IS OVER!",
+      "director_rescued": true,
+      "fatal_errors": 0,
+      "vram_verification": "6144 source bytes converted without differences",
+      "save_load_regression": "passed",
+      "clock_hz": 3579545
+    },
+    {
+      "edition": "msx2",
+      "image": "MISTAR_MSX2.ROM",
+      "sha256": "3841cb85838f7e1ccc3ca5b71a30cbef4e794fef299ab7cac66531673886b9a4",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "docking": "passed",
+      "security_segments_completed": 3,
+      "ending": "THIS ADVENTURE IS OVER!",
+      "director_rescued": true,
+      "fatal_errors": 0,
+      "vram_verification": "6144 source bytes converted without differences",
+      "save_load_regression": "passed",
+      "clock_hz": 3579545
+    },
+    {
+      "edition": "dsk-msx1",
+      "image": "MISTAR_MSX1.DSK",
+      "sha256": "f53d0c7af090b81c7a6b12165830c97e8e5a3c02c4a57a321e5584e8d44cf077",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "docking": "passed",
+      "security_segments_completed": 3,
+      "ending": "THIS ADVENTURE IS OVER!",
+      "director_rescued": true,
+      "fatal_errors": 0,
+      "vram_verification": "6144 source bytes converted without differences",
+      "save_load_regression": "passed",
+      "clock_hz": 3579545
+    },
+    {
+      "edition": "panasonic-turbo",
+      "image": "MISTAR_MSX2_PANASONIC_TURBO.ROM",
+      "sha256": "68f717b7af61141fe1b41f9fcaf6631989443fd822cad0849312ae1e39bcb0b3",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "docking": "passed",
+      "security_segments_completed": 3,
+      "ending": "THIS ADVENTURE IS OVER!",
+      "director_rescued": true,
+      "fatal_errors": 0,
+      "vram_verification": "6144 source bytes converted without differences",
+      "save_load_regression": "passed",
+      "clock_hz": 5369318
+    }
+  ]
+}

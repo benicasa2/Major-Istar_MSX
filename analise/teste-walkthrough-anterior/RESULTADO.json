@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-24",
+  "emulator": "openMSX 21.0",
+  "walkthrough": "Major Istar Walkthrough (Computerware).txt, supplied by user",
+  "input": "keyboard typing through openMSX; arcade direction matrix keys exercised; no guest memory modifications or stage skips",
+  "result": "FAILED_AT_DOCKING",
+  "walkthrough_steps_total": 78,
+  "walkthrough_steps_completed": 1,
+  "walkthrough_blocked_step": 2,
+  "later_steps": "not tested",
+  "tests": [
+    {
+      "edition": "msx1",
+      "file": "MISTAR_MSX1.ROM",
+      "sha256": "54de7a8232680f8cab0c5e9da3472296cc1dbc5f467d4c9e53e43174a4618c44",
+      "walkthrough_step_1": "passed",
+      "walkthrough_step_2": "blocked_by_missing_joystick_adapter",
+      "room_after_attempt": 22,
+      "room_name": "OVER THE DOME",
+      "joystick_samples": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "guest_pc": "0xa390",
+      "stopped": 0,
+      "complete_game_test": false
+    },
+    {
+      "edition": "msx2",
+      "file": "MISTAR_MSX2.ROM",
+      "sha256": "cb8968b00ce823c05ae385391bc4dc93eca86c2d4365b7ed4980e120e86f8794",
+      "walkthrough_step_1": "passed",
+      "walkthrough_step_2": "blocked_by_missing_joystick_adapter",
+      "room_after_attempt": 22,
+      "room_name": "OVER THE DOME",
+      "joystick_samples": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "guest_pc": "0xa390",
+      "stopped": 0,
+      "complete_game_test": false
+    },
+    {
+      "edition": "dsk-msx1",
+      "file": "MISTAR_MSX1.DSK",
+      "sha256": "9d250222af4c1dd398556612e7f8bcf8290b072cb7ebd1249f7e025f487d875a",
+      "walkthrough_step_1": "passed",
+      "walkthrough_step_2": "blocked_by_missing_joystick_adapter",
+      "room_after_attempt": 22,
+      "room_name": "OVER THE DOME",
+      "joystick_samples": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "guest_pc": "0xa390",
+      "stopped": 0,
+      "complete_game_test": false
+    },
+    {
+      "edition": "panasonic-turbo",
+      "file": "MISTAR_MSX2_PANASONIC_TURBO.ROM",
+      "sha256": "8b502e19089ad6f97fb840360feee79da62cefb16d884eb7edfc5a600cc0a689",
+      "walkthrough_step_1": "passed",
+      "walkthrough_step_2": "blocked_by_missing_joystick_adapter",
+      "room_after_attempt": 22,
+      "room_name": "OVER THE DOME",
+      "joystick_samples": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "guest_pc": "0xa390",
+      "stopped": 0,
+      "complete_game_test": false
+    }
+  ]
+}
