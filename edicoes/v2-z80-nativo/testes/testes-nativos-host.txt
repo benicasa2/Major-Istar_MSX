@@ -1,0 +1,47 @@
+In file included from C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\test_native.c:4:
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c: In function 'draw_room':
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:46:3: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   46 |   if(found)say(0x5b8e);found=1;say(object_name(i));a=object_art(i);if(a)draw(a);
+      |   ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:46:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   46 |   if(found)say(0x5b8e);found=1;say(object_name(i));a=object_art(i);if(a)draw(a);
+      |                        ^~~~~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c: In function 'open_object':
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:96:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+   96 |  if(id<0)return object_error(id);o=&objects[id];
+      |  ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:96:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+   96 |  if(id<0)return object_error(id);o=&objects[id];
+      |                                  ^
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c: In function 'repair':
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:110:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  110 |  if(!second_noun())return answer(0x4292,TURN);tool=lookup();if(tool<0)return object_error(tool);
+      |  ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:110:47: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  110 |  if(!second_noun())return answer(0x4292,TURN);tool=lookup();if(tool<0)return object_error(tool);
+      |                                               ^~~~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c: In function 'combine':
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:120:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  120 |  if(!second_noun())return answer(0x4292,TURN);second=lookup();if(second<0)return object_error(second);
+      |  ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:120:47: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  120 |  if(!second_noun())return answer(0x4292,TURN);second=lookup();if(second<0)return object_error(second);
+      |                                               ^~~~~~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c: In function 'checkpoint':
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:137:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  137 |  if(noun[0]==' ')slot=1;if(slot<1||slot>9){text_string("Use SAVE 1 or LOAD 1.");return PROMPT;}
+      |  ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:137:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  137 |  if(noun[0]==' ')slot=1;if(slot<1||slot>9){text_string("Use SAVE 1 or LOAD 1.");return PROMPT;}
+      |                         ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:146:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+  146 |   for(i=0;i<1000;i++)sum+=savebuffer[i];if(memcmp(savebuffer,"MIZ2",4)||sum!=pair(savebuffer[1001],savebuffer[1000])){text_string("Invalid native saved game.");return PROMPT;}
+      |   ^~~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:146:41: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+  146 |   for(i=0;i<1000;i++)sum+=savebuffer[i];if(memcmp(savebuffer,"MIZ2",4)||sum!=pair(savebuffer[1001],savebuffer[1000])){text_string("Invalid native saved game.");return PROMPT;}
+      |                                         ^~
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c: In function 'game':
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\outputs\MISTAR-MSX-Z80-nativo\fontes\adventure.c:190:78: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  190 |  hostinit();memset(drawing,0,sizeof(drawing));for(i=0;i<0x35;i++)drawing[i]=*(const u8*)(ASSET_BASE+0x6c00-0x3b26+i);
+      |                                                                              ^
+Native rules passed: movement, repair, tools, containers, inventory, pill, capacity, light, hazards, saves, checksum, ending and restart.

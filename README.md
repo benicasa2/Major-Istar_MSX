@@ -2,11 +2,28 @@
 
 Conversão experimental de **Major Istar — Under the Doomed Sea**, de B. J. Chambless / Computerware (1984), a partir do arquivo CoCo fornecido para este projeto.
 
-## Versão atual — controles corrigidos, 24/10/2026
+## Versão 2 — motor nativo Z80
 
-As **quatro edições concluíram as 78 etapas do walkthrough no openMSX**, incluindo atracação, três travessias das áreas de segurança, reparo do reator e resgate do diretor. Todas chegaram a **THIS ADVENTURE IS OVER!** e **TRY AGAIN (Y/N)**.
+Esta é a segunda edição do projeto: a lógica foi reescrita em C e compilada diretamente para Z80, **sem núcleo de compatibilidade 6809**. Fontes C, assembly Z80 gerado, dados e relatórios acompanham a edição.
 
-| Computador | Imagem atual |
+| Versão 2 | Download |
+|---|---|
+| MSX2+; alvo principal, validado com 512 KB | [MISTAR_MSX2PLUS_Z80_TURBO.ROM](roms/v2/MISTAR_MSX2PLUS_Z80_TURBO.ROM) |
+| MSX2 | [MISTAR_MSX2_Z80.ROM](roms/v2/MISTAR_MSX2_Z80.ROM) |
+| MSX1 ROM | [MISTAR_MSX1_Z80.ROM](roms/v2/MISTAR_MSX1_Z80.ROM) |
+| MSX1 DSK | [MISTAR_MSX1_Z80.DSK](roms/v2/MISTAR_MSX1_Z80.DSK) |
+
+[Pacote completo da versão 2](downloads/MISTAR-MSX-Z80-nativo-completo.zip) · [Instruções](edicoes/v2-z80-nativo/LEIA-ME.md) · [Arquitetura](edicoes/v2-z80-nativo/ARQUITETURA.md) · [Validação](edicoes/v2-z80-nativo/VALIDACAO.json) · [Integridade](roms/v2/SHA256.json).
+
+A aventura foi concluída em cinco configurações no openMSX, incluindo MSX2+ V9958 com 512 KB de RAM mapeada. Em 207 pontos de comando, framebuffer, objetos e estados relevantes coincidiram byte a byte com a edição corrigida anterior. SAVE/LOAD e testes das regras nativas também passaram. Ainda não foi testada em hardware físico. Os saves da versão 1 são incompatíveis com o formato MIZ2 desta edição.
+
+A versão 2 coube numa ROM normal de 32 KiB sem precisar da RAM adicional. Na ROM principal, o turbo é ativado somente em hardware compatível com o protocolo Panasonic. A versão 1 permanece disponível abaixo e em `edicoes/controles-corrigidos/`.
+
+## Versão 1 — motor híbrido corrigido
+
+As **quatro edições da versão 1 concluíram as 78 etapas do walkthrough no openMSX**, incluindo atracação, três travessias das áreas de segurança, reparo do reator e resgate do diretor. Todas chegaram a **THIS ADVENTURE IS OVER!** e **TRY AGAIN (Y/N)**.
+
+| Computador | Imagem da versão 1 |
 |---|---|
 | MSX1 — ROM 32 KiB | [MISTAR_MSX1.ROM](roms/MISTAR_MSX1.ROM) |
 | MSX1 — DSK 720 KiB | [MISTAR_MSX1.DSK](roms/MISTAR_MSX1.DSK) |
@@ -38,12 +55,12 @@ As evidências estão em [testes](edicoes/controles-corrigidos/testes/). Os arqu
 - [Fontes atuais MSX1, DSK e MSX2](edicoes/controles-corrigidos/padrao/fontes/).
 - [Fontes atuais Panasonic turbo](edicoes/controles-corrigidos/panasonic-turbo/fontes/).
 - [Análise do original 6809](analise/original-6809/) e evidências REA/Ghidra em `analise/` e nas edições.
-- Os arquivos disponíveis nesta versão do repositório são os da edição corrigida. As entregas anteriores foram substituídas; seus registros permanecem no histórico de commits.
+- A versão 1 corresponde à edição híbrida corrigida. As entregas que antecederam essa correção permanecem no histórico de commits.
 - [Falha identificada no teste anterior](analise/teste-walkthrough-anterior/RELATORIO.md), corrigida nesta revisão.
 
 Para compilar, use Python e SDCC conforme o LEIA-ME. Dentro da edição desejada, execute `python fontes/build.py --sdcc "CAMINHO/DO/SDCC"`. Atalhos e scripts de teste preservam alguns caminhos do computador de desenvolvimento; ajuste-os em outra instalação.
 
-O motor continua híbrido: inicialização, texto e gráficos nativos Z80, e parte da lógica original num núcleo de compatibilidade 6809 compilado para Z80. Não corresponde à recuperação integral do fonte original.
+O motor da versão 1 é híbrido: inicialização, texto e gráficos nativos Z80, e parte da lógica original num núcleo de compatibilidade 6809 compilado para Z80. Não corresponde à recuperação integral do fonte original.
 
 ## Créditos
 

@@ -1,0 +1,18 @@
+{
+  "MISTAR_MSX1_Z80.DSK": {
+    "bytes": 737280,
+    "sha256": "ffc4381eb6ec75fec66d35005e41a30711fba313d901a915209bdadde0a3f0fa"
+  },
+  "MISTAR_MSX1_Z80.ROM": {
+    "bytes": 32768,
+    "sha256": "5a78c119274a6a4a5a9b4b63db3a8b5dd7c2ae219d21dfc03ea71619fc4c28a2"
+  },
+  "MISTAR_MSX2_Z80.ROM": {
+    "bytes": 32768,
+    "sha256": "917257ce99113301b7ddd6197a08371ac492383b5386d3913582a711e971105e"
+  },
+  "MISTAR_MSX2PLUS_Z80_TURBO.ROM": {
+    "bytes": 32768,
+    "sha256": "5c73f8f7ed0b8a5931e20e172bdad18dd637819b28d506ba8eb39f65935a0430"
+  }
+}

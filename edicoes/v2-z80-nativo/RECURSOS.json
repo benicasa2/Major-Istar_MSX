@@ -1,0 +1,12 @@
+{
+  "asset_bytes": 12559,
+  "asset_sha256": "93ead4ea7be191f7c24d8ae1a3a0c462efc211749fa8cf2f4aca50337a2ca69f",
+  "original_resource_identifiers": "3B26..6C34",
+  "excluded_original_executable_range": "2460..3B25",
+  "obsolete_function_tables_zeroed": [
+    "4B30..4C79",
+    "5C17..5C2A"
+  ],
+  "no_original_bin_required_for_build": true,
+  "rom_bytes": 32768
+}

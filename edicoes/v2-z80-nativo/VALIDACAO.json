@@ -1,0 +1,88 @@
+{
+  "result": "NATIVE_Z80_COMPLETED_ON_ALL_TARGETS",
+  "date": "2026-10-24",
+  "implementation": "manually rewritten C game rules compiled directly to native Z80; generated Z80 assembly included",
+  "runtime_6809_interpreter": false,
+  "reference_comparison": {
+    "prompts": 207,
+    "source_video_bytes_per_prompt": 6144,
+    "object_bytes_per_prompt": 825,
+    "video_differences": 0,
+    "object_differences": 0,
+    "room_inventory_flags_turn_differences": 0
+  },
+  "unit_tests": "passed",
+  "physical_hardware_tested": false,
+  "tests": [
+    {
+      "target": "msx1",
+      "image": "MISTAR_MSX1_Z80.ROM",
+      "sha256": "5a78c119274a6a4a5a9b4b63db3a8b5dd7c2ae219d21dfc03ea71619fc4c28a2",
+      "ending": "THIS ADVENTURE IS OVER!",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "security_segments": 3,
+      "save_load": "passed",
+      "vram": "byte-exact",
+      "clock_hz": 3579545,
+      "ram_bytes_reported": 65536,
+      "native_no_6809_core": true
+    },
+    {
+      "target": "msx2",
+      "image": "MISTAR_MSX2_Z80.ROM",
+      "sha256": "917257ce99113301b7ddd6197a08371ac492383b5386d3913582a711e971105e",
+      "ending": "THIS ADVENTURE IS OVER!",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "security_segments": 3,
+      "save_load": "passed",
+      "vram": "byte-exact",
+      "clock_hz": 3579545,
+      "ram_bytes_reported": 524288,
+      "native_no_6809_core": true
+    },
+    {
+      "target": "dsk-msx1",
+      "image": "MISTAR_MSX1_Z80.DSK",
+      "sha256": "ffc4381eb6ec75fec66d35005e41a30711fba313d901a915209bdadde0a3f0fa",
+      "ending": "THIS ADVENTURE IS OVER!",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "security_segments": 3,
+      "save_load": "passed",
+      "vram": "byte-exact",
+      "clock_hz": 3579545,
+      "ram_bytes_reported": 65536,
+      "native_no_6809_core": true
+    },
+    {
+      "target": "panasonic-turbo",
+      "image": "MISTAR_MSX2PLUS_Z80_TURBO.ROM",
+      "sha256": "5c73f8f7ed0b8a5931e20e172bdad18dd637819b28d506ba8eb39f65935a0430",
+      "ending": "THIS ADVENTURE IS OVER!",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "security_segments": 3,
+      "save_load": "passed",
+      "vram": "byte-exact",
+      "clock_hz": 5369318,
+      "ram_bytes_reported": 65536,
+      "native_no_6809_core": true
+    },
+    {
+      "target": "msx2plus-512k",
+      "image": "MISTAR_MSX2PLUS_Z80_TURBO.ROM",
+      "sha256": "5c73f8f7ed0b8a5931e20e172bdad18dd637819b28d506ba8eb39f65935a0430",
+      "ending": "THIS ADVENTURE IS OVER!",
+      "walkthrough_steps": 78,
+      "typed_commands": 206,
+      "security_segments": 3,
+      "save_load": "passed",
+      "vram": "byte-exact",
+      "clock_hz": 5369318,
+      "ram_bytes_reported": 524288,
+      "native_no_6809_core": true
+    }
+  ]
+}

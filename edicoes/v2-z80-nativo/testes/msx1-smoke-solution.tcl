@@ -1,0 +1,187 @@
+
+set throttle off
+set speed 100
+set z80_freq_locked true
+set ::idx 0
+set ::events {}
+set ::lastturn -1
+set ::pending 0
+set ::waitkey 0
+set ::arcade 0
+set ::finished 0
+set ::keynum 0
+set ::dockingpath {}
+set ::securityframes 0
+set ::securitypath {}
+set ::securityroom 0
+set ::commands {{0 {INVENTORY}} {0 {SAVE 1}} {0 {DOWN}} {0 {LOAD 1}} {0 {INVENTORY}}}
+proc byte {a} {debug read memory $a}
+proc le {a} {expr {[byte $a]|([byte [expr {$a+1}]]<<8)}}
+proc be {a} {expr {([byte $a]<<8)|[byte [expr {$a+1}]]}}
+proc guest {a} {if {$a>=3584&&$a<9728} {return [byte [expr {51080+$a-3584}]]};return 255}
+proc gw {a} {expr {([guest $a]<<8)|[guest [expr {$a+1}]]}}
+proc event {name} {
+ set e [list $name [machine_info time] [byte 49977] [le 49984] $::idx]
+ lappend ::events $e
+ set f [open {C:/Users/Anderson/Documents/Codex/2026-10-23/https-github-com-morluto-rea-https/outputs/MISTAR-MSX-Z80-nativo/testes/msx1-smoke-events.txt} a];puts $f $e;close $f
+}
+proc snapshot {label} {
+ foreach {name device address length} {ram memory 49152 16384 vram VRAM 0 32768} {
+  set f [open "C:/Users/Anderson/Documents/Codex/2026-10-23/https-github-com-morluto-rea-https/outputs/MISTAR-MSX-Z80-nativo/testes/msx1-smoke-$label-$name.bin" wb];puts -nonewline $f [debug read_block $device $address $length];close $f
+ }
+}
+proc finish {reason} {
+ if {$::finished} {return};set ::finished 1
+ event "finish-$reason";snapshot final
+ set f [open {C:/Users/Anderson/Documents/Codex/2026-10-23/https-github-com-morluto-rea-https/outputs/MISTAR-MSX-Z80-nativo/testes/msx1-smoke-hardware.txt} w];puts $f [machine_info z80_freq];catch {debug size {Main RAM}} size;puts $f $size;close $f
+ keymatrixup 8 240
+ set throttle on
+ after time 0.2 {screenshot -raw {C:/Users/Anderson/Documents/Codex/2026-10-23/https-github-com-morluto-rea-https/outputs/MISTAR-MSX-Z80-nativo/testes/msx1-smoke-final.png};quit}
+}
+proc direction {d} {
+ keymatrixup 8 240
+ set bits 0
+ if {$d&8} {set bits [expr {$bits|16}]};if {$d&2} {set bits [expr {$bits|32}]}
+ if {$d&1} {set bits [expr {$bits|64}]};if {$d&4} {set bits [expr {$bits|128}]}
+ if {$bits} {keymatrixdown 8 $bits}
+}
+proc docking_plan {} {
+ set start [le 57357];set goal 6227
+ set incoming {}
+ if {([byte 57395]&7)==0} {
+  for {set i 1024} {$i<1048} {incr i 2} {
+   set p [expr {[le [expr {57359+(($i-1024)/2)*2}]]-256}];if {$p<4160} {incr p 2048}
+   lappend incoming $p
+  }
+ }
+ set todo [list $start];set parent [dict create $start [list -1 0]];set head 0
+ while {$head<[llength $todo]} {
+  set p [lindex $todo $head];incr head
+  if {$p==$goal} {break}
+  foreach {delta d} {1 4 256 1 -1 8 -256 2 257 5 -255 6 255 9 -257 10} {
+   set q [expr {$p+$delta}];set col [expr {$q&31}]
+   if {$q<4160||$q>6300||$col==0||$col>=29||[dict exists $parent $q]} {continue}
+   if {$q in $incoming||[expr {$q+1}] in $incoming} {continue}
+   set blocked 0
+   for {set y 0} {$y<8} {incr y} {for {set x 0} {$x<2} {incr x} {
+    set a [expr {$q+$y*32+$x}]
+    set rel [expr {$a-$start}]
+    if {$rel>=0&&$rel<226&&($rel%32)<2} {continue}
+    if {[guest $a]!=0} {set blocked 1;break}
+   };if {$blocked} {break}}
+   if {!$blocked} {dict set parent $q [list $p $d];lappend todo $q}
+  }
+ }
+ if {![dict exists $parent $goal]} {event docking-no-path;snapshot docking-no-path;return {}}
+ set route {};set p $goal
+ while {$p!=$start} {lassign [dict get $parent $p] p d;set route [linsert $route 0 $d]}
+ return $route
+}
+proc security_plan {} {
+ set start [le 57357]
+ set enemies {}
+ for {set i 0} {$i<5} {incr i} {lappend enemies [list [le [expr {57359+$i*2}]] [expr {[byte [expr {57383+$i}]]==255?-1:1}]]}
+ set forecast [list $enemies]
+ for {set t 0} {$t<180} {incr t} {
+  set future {}
+  foreach e $enemies {
+   lassign $e p v
+   if {[guest [expr {$p+256}]]==0} {incr p 512} else {
+    set col [expr {($p&31)+$v}]
+    if {$col==0||$col>=31} {
+     if {($p>>8)==23} {set p [expr {$col==0?3997:3969}]} else {set v [expr {-$v}]}
+    } else {incr p $v}
+   }
+   lappend future [list $p $v]
+  }
+  set enemies $future;lappend forecast $enemies
+ }
+ set todo [list [list $start 0]];set head 0
+ set parent [dict create "$start,0" [list {} 0]];set goal {}
+ while {$head<[llength $todo]} {
+  lassign [lindex $todo $head] p t;incr head
+  if {$t>=179} {continue}
+  set blocked {}
+  foreach e [lindex $forecast $t] {lappend blocked [lindex $e 0]}
+  if {$p in $blocked} {continue}
+  set nextblocked {}
+  foreach e [lindex $forecast [expr {$t+1}]] {lappend nextblocked [lindex $e 0]}
+  set moves [list $p 0]
+  if {($p&31)>1} {lappend moves [expr {$p-1}] 8}
+  if {($p&31)<30} {lappend moves [expr {$p+1}] 4}
+  if {[guest [expr {$p-32}]]==0} {lappend moves [expr {$p-512}] 2}
+  if {[guest [expr {$p+256}]]==0} {lappend moves [expr {$p+512}] 1}
+  foreach {q d} $moves {
+   if {$q in $blocked||$q in $nextblocked} {continue}
+   set key "$q,[expr {$t+1}]"
+   if {[dict exists $parent $key]} {continue}
+   dict set parent $key [list "$p,$t" $d]
+   if {$q<=4224} {set goal $key;break}
+   lappend todo [list $q [expr {$t+1}]]
+  }
+  if {$goal ne {}} {break}
+ }
+ if {$goal eq {}} {event security-no-path;return {}}
+ set route {};set key $goal
+ while {$key ne "$start,0"} {lassign [dict get $parent $key] key d;set route [linsert $route 0 $d]}
+ return $route
+}
+proc arcade {} {
+ if {$::finished} {debug cont;return}
+ set ::waitkey 0
+ incr ::arcade
+ set room [byte 49977]
+ if {$room==23} {
+  set ::dockingpath [docking_plan]
+  if {$::arcade==1} {event "docking-path-$::dockingpath";snapshot docking}
+  if {$::dockingpath eq {}} {direction 0;finish no-docking-path;debug cont;return}
+  set d [lindex $::dockingpath 0];set ::dockingpath [lrange $::dockingpath 1 end]
+  direction $d;event "docking-[le 57357]-move-$d";snapshot "docking-$::arcade"
+ } else {
+  incr ::securityframes
+  if {$::securitypath eq {}||$::securityroom!=$room} {
+   set ::securityroom $room;set ::securitypath [security_plan]
+   event "security-path-$::securitypath";snapshot security
+  }
+  if {$::securitypath eq {}} {finish security-no-path;debug cont;return}
+  set d [lindex $::securitypath 0];set ::securitypath [lrange $::securitypath 1 end]
+  direction $d;event "security-room-$room-pos[le 57357]-move-$d"
+  if {$::securityframes>800} {finish security-excess-frames}
+ }
+ debug cont
+}
+proc send {} {
+ if {$::finished} {return}
+ if {$::idx>=[llength $::commands]} {finish commands-complete;return}
+ lassign [lindex $::commands $::idx] step cmd
+ incr ::idx;event "send-step$step-$cmd"
+ set ::pending 1
+ type -release -freq 5 [format {%s%c} $cmd 13]
+}
+proc ready {} {
+ if {$::finished} {debug cont;return}
+ set pc [byte 58183]
+ if {$pc==1} {
+  set ret 1
+  if {$ret!=$::waitkey} {
+   set ::waitkey $ret
+   incr ::keynum;event "key-wait-$ret";snapshot "key-$::keynum"
+   after time 0.4 {type -release -freq 4 " "}
+   after time 1 {set ::waitkey 0}
+  }
+ } elseif {$pc==2} {
+  set ::waitkey 0
+  set turn [le 57352]
+  if {$turn!=$::lastturn} {
+   set ::lastturn $turn
+   direction 0;event prompt;snapshot "prompt-$::idx"
+   after time 0.3 {send}
+  }
+ }
+ debug cont
+}
+proc fault {} {event "58180-pc[le 58180]-op[byte 58182]";finish fault;debug cont}
+debug set_bp 0x70d5 {} {ready}
+debug set_bp 0x702e {} {arcade}
+debug set_bp 0x728d {} {fault}
+after time 10000 {finish timeout}

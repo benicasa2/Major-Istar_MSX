@@ -1,0 +1,173 @@
+ASxxxx Linker V03.00/V05.40 + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _memset
+     00000000  l__BSEG                         
+     00000000  l__BSS                          
+     00000000  l__CABS                         
+     00000000  l__DABS                         
+     00000000  l__GSFINAL                      
+     00000000  l__GSINIT                       
+     00000000  l__HEADER                       
+     00000000  l__HEAP                         
+     00000000  l__HOME                         
+     00000000  l__INITIALIZED                  
+     00000000  l__INITIALIZER                  
+     00000000  s__CABS                         
+     00000000  s__DABS                         
+     00000000  s__HEADER                       
+     00000000  s__HEADER0                      
+     00000000  s__HEADER1                      
+     00000010  l__HEADER0                      
+     00000036  l__HEADER1                      
+     0000234A  l__DATA                         
+     000032D9  l__CODE                         
+     00004080  s__CODE                         
+     00007359  s__GSFINAL                      
+     00007359  s__GSINIT                       
+     00007359  s__HOME                         
+     00007359  s__INITIALIZER                  
+     0000C000  s__DATA                         
+     0000E34A  s__BSEG                         
+     0000E34A  s__BSS                          
+     0000E34A  s__HEAP                         
+     0000E34A  s__INITIALIZED                  
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_CODE                               00004080    000032D9 =       13017. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000044F8  _draw_room                         adventure
+     00005873  _game                              adventure
+     0000596F  _pair                              screen
+     0000597A  _setpair                           screen
+     0000597E  _asset                             screen
+     000059AF  _assetword                         screen
+     000059C2  _native_video_write                screen
+     00005A17  _native_video_fill                 screen
+     00005AA9  _native_video_scroll               screen
+     00005ACC  _glyph                             screen
+     00005B23  _text_at                           screen
+     00005C7A  _native_putchar                    screen
+     00005CE5  _text_resource                     screen
+     00005CFA  _text_string                       screen
+     00005D06  _newline                           screen
+     00005D0B  _text_clear                        screen
+     00005D1F  _scene_clear                       screen
+     00005D35  _wait_any                          screen
+     00005D50  _input_line                        screen
+     000063DF  _draw                              graphics
+     00006490  _docking                           arcade
+     000067DF  _security                          arcade
+     00006A47  _disk_transfer                     msx
+     00006A66  _saveslot                          msx
+     00006DC1  _pixelbyte                         msx
+     00006DF9  _video_changed                     msx
+     00006E2E  _video_mode                        msx
+     00006EEB  _flush                             msx
+     00006F6B  _hostinit                          msx
+     0000702E  _arcade_ready                      msx
+     0000702F  _hosttrigger                       msx
+     0000704B  _hoststick                         msx
+     000070A7  _hostsound                         msx
+     000070D5  _host_ready                        msx
+     000070D6  _hostkey                           msx
+     0000728D  _hostfatal                         msx
+     000072A5  _main                              msx
+     000072AB  __divuchar                         divunsigned
+     000072AD  __divu8                            divunsigned
+     000072B0  __divu16                           divunsigned
+     000072B0  __divuint                          divunsigned
+     000072DF  _memmove                           memmove
+     000072FE  _memcmp                            _memcmp
+     00007343  _memset                            _memset
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER0                            00000000    00000010 =          16. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_HEADER1                            00000000    00000036 =          54. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00/V05.40 + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+_DATA                               0000C000    0000234A =        9034. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000C000  _objects                           adventure
+     0000C339  _adventure                         adventure
+     0000C788  _video                             screen
+     0000DF88  _drawing                           screen
+     0000E008  _input_sequence                    screen
+     0000E00C  _arcade_kind                       arcade
+     0000E00D  _arcade_player                     arcade
+     0000E00F  _arcade_enemy                      arcade
+     0000E027  _arcade_velocity                   arcade
+     0000E033  _arcade_tick                       arcade
+     0000E034  _arcade_lives                      arcade
+     0000E03D  _dirty                             msx
+     0000E33D  _dirty_any                         msx
+     0000E340  _disk_sector                       msx
+     0000E342  _disk_buffer                       msx
+     0000E344  _faultpc                           msx
+     0000E346  _faultop                           msx
+     0000E347  _waiting_kind                      msx
+     0000E348  _frames_flushed                    msx
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 6.
+
+Files Linked                              [ module(s) ]
+
+crt0.rel                                  [ crt0 ]
+adventure.rel                             [ adventure ]
+screen.rel                                [ screen ]
+graphics.rel                              [ graphics ]
+arcade.rel                                [ arcade ]
+msx.rel                                   [ msx ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\tools\sdcc\sdcc\bin\..\lib\z80/z80.lib
+                                          [ divunsigned.rel ]
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\tools\sdcc\sdcc\bin\..\lib\z80/z80.lib
+                                          [ memmove.rel ]
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\tools\sdcc\sdcc\bin\..\lib\z80/z80.lib
+                                          [ _memcmp.rel ]
+C:\Users\Anderson\Documents\Codex\2026-10-23\https-github-com-morluto-rea-https\tools\sdcc\sdcc\bin\..\lib\z80/z80.lib
+                                          [ _memset.rel ]
+
+ASxxxx Linker V03.00/V05.40 + sdld,  page 7.
+
+User Base Address Definitions
+
+_CODE = 0x4080
+_DATA = 0xc000
+
+

@@ -1,0 +1,1315 @@
+[
+  {
+    "id": 1,
+    "name": "On the surface",
+    "exits": {
+      "N": 1,
+      "S": 1,
+      "E": 1,
+      "W": 1,
+      "U": 0,
+      "D": 4
+    },
+    "vector_art": "0x5edd"
+  },
+  {
+    "id": 2,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 5,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 3
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 3,
+    "name": "One mile down",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 2,
+      "D": 0
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 4,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 10,
+      "S": 0,
+      "E": 0,
+      "W": 5,
+      "U": 1,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 5,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 11,
+      "S": 2,
+      "E": 4,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 6,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 12,
+      "S": 0,
+      "E": 0,
+      "W": 7,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 7,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 13,
+      "S": 0,
+      "E": 6,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 8,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 9,
+      "U": 0,
+      "D": 14
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 9,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 8,
+      "W": 10,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 10,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 15,
+      "S": 4,
+      "E": 9,
+      "W": 11,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 11,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 0,
+      "S": 5,
+      "E": 10,
+      "W": 12,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 12,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 17,
+      "S": 6,
+      "E": 11,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 13,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 18,
+      "S": 7,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 14,
+    "name": "One mile down",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 8,
+      "D": 0
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 15,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 0,
+      "S": 10,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 16,
+    "name": "One mile down",
+    "exits": {
+      "N": 19,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 17,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 0,
+      "S": 12,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 18,
+    "name": "Under the ocean",
+    "exits": {
+      "N": 0,
+      "S": 13,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 20
+    },
+    "vector_art": "0x5f07"
+  },
+  {
+    "id": 19,
+    "name": "One mile down",
+    "exits": {
+      "N": 0,
+      "S": 16,
+      "E": 0,
+      "W": 20,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 20,
+    "name": "One mile down",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 19,
+      "W": 21,
+      "U": 18,
+      "D": 0
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 21,
+    "name": "One mile down",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 20,
+      "W": 0,
+      "U": 0,
+      "D": 22
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 22,
+    "name": "OVER THE DOME",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 21,
+      "D": 23
+    },
+    "vector_art": "0x5f1a"
+  },
+  {
+    "id": 23,
+    "name": "Undersea dock",
+    "exits": {
+      "N": 24,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 22,
+      "D": 0
+    },
+    "vector_art": "0x6796"
+  },
+  {
+    "id": 24,
+    "name": "Dome airlock",
+    "exits": {
+      "N": 28,
+      "S": 23,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x675b"
+  },
+  {
+    "id": 25,
+    "name": "Inside dome",
+    "exits": {
+      "N": 33,
+      "S": 0,
+      "E": 0,
+      "W": 26,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x646f"
+  },
+  {
+    "id": 26,
+    "name": "Inside dome",
+    "exits": {
+      "N": 34,
+      "S": 0,
+      "E": 25,
+      "W": 27,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x63c9"
+  },
+  {
+    "id": 27,
+    "name": "Inside dome",
+    "exits": {
+      "N": 35,
+      "S": 0,
+      "E": 26,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x64ff"
+  },
+  {
+    "id": 28,
+    "name": "Inside dome",
+    "exits": {
+      "N": 36,
+      "S": 24,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x65d0"
+  },
+  {
+    "id": 29,
+    "name": "Inside dome",
+    "exits": {
+      "N": 37,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6863"
+  },
+  {
+    "id": 30,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 38,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x670d"
+  },
+  {
+    "id": 31,
+    "name": "Storage room",
+    "exits": {
+      "N": 0,
+      "S": 30,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6806"
+  },
+  {
+    "id": 32,
+    "name": "Inside dome",
+    "exits": {
+      "N": 40,
+      "S": 0,
+      "E": 0,
+      "W": 33,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x646f"
+  },
+  {
+    "id": 33,
+    "name": "Storage room",
+    "exits": {
+      "N": 0,
+      "S": 25,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6806"
+  },
+  {
+    "id": 34,
+    "name": "Inside dome",
+    "exits": {
+      "N": 42,
+      "S": 26,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x65d0"
+  },
+  {
+    "id": 35,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 27,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6806"
+  },
+  {
+    "id": 36,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 28,
+      "E": 0,
+      "W": 37,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x66aa"
+  },
+  {
+    "id": 37,
+    "name": "Inside dome",
+    "exits": {
+      "N": 45,
+      "S": 29,
+      "E": 36,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x64ff"
+  },
+  {
+    "id": 38,
+    "name": "Inside dome",
+    "exits": {
+      "N": 46,
+      "S": 0,
+      "E": 0,
+      "W": 30,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x646f"
+  },
+  {
+    "id": 39,
+    "name": "Inside dome",
+    "exits": {
+      "N": 48,
+      "S": 0,
+      "E": 0,
+      "W": 40,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x646f"
+  },
+  {
+    "id": 40,
+    "name": "Computer room",
+    "exits": {
+      "N": 0,
+      "S": 32,
+      "E": 39,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6859"
+  },
+  {
+    "id": 41,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 42,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6852"
+  },
+  {
+    "id": 42,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 34,
+      "E": 41,
+      "W": 43,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x658b"
+  },
+  {
+    "id": 43,
+    "name": "Inside dome",
+    "exits": {
+      "N": 52,
+      "S": 0,
+      "E": 42,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x64ff"
+  },
+  {
+    "id": 44,
+    "name": "Inside dome",
+    "exits": {
+      "N": 53,
+      "S": 0,
+      "E": 0,
+      "W": 45,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x646f"
+  },
+  {
+    "id": 45,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 37,
+      "E": 44,
+      "W": 46,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x658b"
+  },
+  {
+    "id": 46,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 38,
+      "E": 45,
+      "W": 47,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x658b"
+  },
+  {
+    "id": 47,
+    "name": "Inside dome",
+    "exits": {
+      "N": 55,
+      "S": 0,
+      "E": 46,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x64ff"
+  },
+  {
+    "id": 48,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 39,
+      "E": 0,
+      "W": 49,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x66aa"
+  },
+  {
+    "id": 49,
+    "name": "Com room",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 48,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6859"
+  },
+  {
+    "id": 50,
+    "name": "Storage room",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 51,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6852"
+  },
+  {
+    "id": 51,
+    "name": "Inside dome",
+    "exits": {
+      "N": 56,
+      "S": 0,
+      "E": 50,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x64ff"
+  },
+  {
+    "id": 52,
+    "name": "Inside dome",
+    "exits": {
+      "N": 57,
+      "S": 43,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x65d0"
+  },
+  {
+    "id": 53,
+    "name": "Inside dome",
+    "exits": {
+      "N": 58,
+      "S": 44,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x65d0"
+  },
+  {
+    "id": 54,
+    "name": "Inside dome",
+    "exits": {
+      "N": 59,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6863"
+  },
+  {
+    "id": 55,
+    "name": "Inside dome",
+    "exits": {
+      "N": 60,
+      "S": 47,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x65d0"
+  },
+  {
+    "id": 56,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 51,
+      "E": 0,
+      "W": 57,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x66aa"
+  },
+  {
+    "id": 57,
+    "name": "Inside dome",
+    "exits": {
+      "N": 62,
+      "S": 52,
+      "E": 56,
+      "W": 58,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x63c9"
+  },
+  {
+    "id": 58,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 53,
+      "E": 57,
+      "W": 0,
+      "U": 0,
+      "D": 63
+    },
+    "vector_art": "0x674d"
+  },
+  {
+    "id": 59,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 54,
+      "E": 0,
+      "W": 60,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x66aa"
+  },
+  {
+    "id": 60,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 55,
+      "E": 59,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6650"
+  },
+  {
+    "id": 61,
+    "name": "Lounge",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 62,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x686e"
+  },
+  {
+    "id": 62,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 57,
+      "E": 61,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6650"
+  },
+  {
+    "id": 63,
+    "name": "Inside dome",
+    "exits": {
+      "N": 64,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 58,
+      "D": 0
+    },
+    "vector_art": "0x6746"
+  },
+  {
+    "id": 64,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 63,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 65
+    },
+    "vector_art": "0x6754"
+  },
+  {
+    "id": 65,
+    "name": "Inside dome",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 64,
+      "D": 0
+    },
+    "vector_art": "0x6725"
+  },
+  {
+    "id": 66,
+    "name": "Power room",
+    "exits": {
+      "N": 0,
+      "S": 65,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x686a"
+  },
+  {
+    "id": 67,
+    "name": "Inside caves",
+    "exits": {
+      "N": 70,
+      "S": 67,
+      "E": 0,
+      "W": 68,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x62e1"
+  },
+  {
+    "id": 68,
+    "name": "Inside caves",
+    "exits": {
+      "N": 0,
+      "S": 68,
+      "E": 67,
+      "W": 69,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x637b"
+  },
+  {
+    "id": 69,
+    "name": "Inside caves",
+    "exits": {
+      "N": 72,
+      "S": 69,
+      "E": 68,
+      "W": 69,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6273"
+  },
+  {
+    "id": 70,
+    "name": "Inside caves",
+    "exits": {
+      "N": 73,
+      "S": 67,
+      "E": 83,
+      "W": 70,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6273"
+  },
+  {
+    "id": 71,
+    "name": "Inside caves",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 0,
+      "W": 72,
+      "U": 96,
+      "D": 0
+    },
+    "vector_art": "0x633e"
+  },
+  {
+    "id": 72,
+    "name": "Inside caves",
+    "exits": {
+      "N": 75,
+      "S": 69,
+      "E": 71,
+      "W": 72,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6273"
+  },
+  {
+    "id": 73,
+    "name": "Inside caves",
+    "exits": {
+      "N": 73,
+      "S": 70,
+      "E": 0,
+      "W": 74,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x62e1"
+  },
+  {
+    "id": 74,
+    "name": "Inside caves",
+    "exits": {
+      "N": 74,
+      "S": 0,
+      "E": 73,
+      "W": 75,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6273"
+  },
+  {
+    "id": 75,
+    "name": "Inside caves",
+    "exits": {
+      "N": 75,
+      "S": 72,
+      "E": 74,
+      "W": 75,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6273"
+  },
+  {
+    "id": 76,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 24,
+      "W": 77,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6142"
+  },
+  {
+    "id": 77,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 78,
+      "S": 78,
+      "E": 76,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x60bc"
+  },
+  {
+    "id": 78,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 77,
+      "S": 77,
+      "E": 78,
+      "W": 79,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 79,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 81,
+      "S": 79,
+      "E": 78,
+      "W": 79,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 80,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 87,
+      "S": 80,
+      "E": 80,
+      "W": 81,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 81,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 0,
+      "S": 79,
+      "E": 80,
+      "W": 81,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6142"
+  },
+  {
+    "id": 82,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 84,
+      "S": 85,
+      "E": 82,
+      "W": 83,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 83,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 82,
+      "W": 70,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6205"
+  },
+  {
+    "id": 84,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 85,
+      "S": 82,
+      "E": 84,
+      "W": 86,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 85,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 82,
+      "S": 84,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x61b6"
+  },
+  {
+    "id": 86,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 89,
+      "S": 0,
+      "E": 84,
+      "W": 87,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 87,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 0,
+      "S": 80,
+      "E": 86,
+      "W": 87,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6142"
+  },
+  {
+    "id": 88,
+    "name": "Box canyon",
+    "exits": {
+      "N": 90,
+      "S": 0,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x61b6"
+  },
+  {
+    "id": 89,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 89,
+      "S": 86,
+      "E": 89,
+      "W": 90,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 90,
+    "name": "Undersea canyon",
+    "exits": {
+      "N": 90,
+      "S": 88,
+      "E": 89,
+      "W": 90,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6022"
+  },
+  {
+    "id": 91,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 0,
+      "S": 94,
+      "E": 0,
+      "W": 92,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 92,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 0,
+      "S": 93,
+      "E": 91,
+      "W": 98,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 93,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 92,
+      "S": 96,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 94,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 91,
+      "S": 0,
+      "E": 0,
+      "W": 95,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 95,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 94,
+      "W": 96,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 96,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 93,
+      "S": 99,
+      "E": 95,
+      "W": 97,
+      "U": 0,
+      "D": 71
+    },
+    "vector_art": "0x6a76"
+  },
+  {
+    "id": 97,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 0,
+      "S": 0,
+      "E": 96,
+      "W": 98,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 98,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 92,
+      "S": 101,
+      "E": 97,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 99,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 96,
+      "S": 100,
+      "E": 0,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 100,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 99,
+      "S": 0,
+      "E": 0,
+      "W": 101,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  },
+  {
+    "id": 101,
+    "name": "UNDERSEA PLATEAU",
+    "exits": {
+      "N": 98,
+      "S": 0,
+      "E": 100,
+      "W": 0,
+      "U": 0,
+      "D": 0
+    },
+    "vector_art": "0x6a4d"
+  }
+]

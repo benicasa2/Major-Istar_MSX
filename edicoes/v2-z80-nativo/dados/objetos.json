@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "keyword": "BOX ",
+    "name": "STORAGE BOX",
+    "initial_room": 31,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x542c"
+  },
+  {
+    "id": 2,
+    "keyword": " APE",
+    "name": "OLD NEWSPAPER",
+    "initial_room": 31,
+    "examination": "\rIt's a copy of a two day old Planet Times!\r",
+    "reading": "\rIt says there was an explosion on an UNDERSEA PLATEAU near the Trident Dome, but could not be confirmed.\r",
+    "drawing": "0x5372"
+  },
+  {
+    "id": 3,
+    "keyword": " ELM",
+    "name": "AIR HELMET",
+    "initial_room": 31,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x53ae"
+  },
+  {
+    "id": 4,
+    "keyword": "CHES",
+    "name": "TOOL CHEST",
+    "initial_room": 35,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x54e3"
+  },
+  {
+    "id": 5,
+    "keyword": " ROW",
+    "name": "POWER CROWBAR",
+    "initial_room": 35,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x53a2"
+  },
+  {
+    "id": 6,
+    "keyword": " UTT",
+    "name": "PLANT CUTTERS",
+    "initial_room": 35,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5378"
+  },
+  {
+    "id": 7,
+    "keyword": "STON",
+    "name": "STONE",
+    "initial_room": 92,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rIt's a COLT-VICTOR blaster.\r",
+    "drawing": "0x55b1"
+  },
+  {
+    "id": 8,
+    "keyword": "MUSH",
+    "name": "MUSHROOM",
+    "initial_room": 71,
+    "examination": "\rIt looks ok.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5534"
+  },
+  {
+    "id": 9,
+    "keyword": "SEAW",
+    "name": "SEAWEED",
+    "initial_room": 88,
+    "examination": "\rIt looks ok.\r",
+    "reading": "\rIt says there was an explosion on an UNDERSEA PLATEAU near the Trident Dome, but could not be confirmed.\r",
+    "drawing": "0x553a"
+  },
+  {
+    "id": 10,
+    "keyword": "MUTA",
+    "name": "MUTANT",
+    "initial_room": 87,
+    "examination": "\rHe looks angry!!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5456"
+  },
+  {
+    "id": 11,
+    "keyword": "BLAS",
+    "name": "BLASTER",
+    "initial_room": 49,
+    "examination": "\rIt's a COLT-VICTOR blaster.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5396"
+  },
+  {
+    "id": 12,
+    "keyword": "MIRR",
+    "name": "MIRROR",
+    "initial_room": 50,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x539c"
+  },
+  {
+    "id": 13,
+    "keyword": "POST",
+    "name": "POSTER",
+    "initial_room": 33,
+    "examination": "\rIt's a 3D poster for MR DIG!\r",
+    "reading": "\rIt's a 3D poster for MR DIG!\r",
+    "drawing": "0x53b4"
+  },
+  {
+    "id": 14,
+    "keyword": "COMP",
+    "name": "DAMAGED COMPUTER",
+    "initial_room": 40,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 15,
+    "keyword": " ARD",
+    "name": "PLASTIC CARD",
+    "initial_room": 40,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x53a8"
+  },
+  {
+    "id": 16,
+    "keyword": "GRID",
+    "name": "MEMORY GRID",
+    "initial_room": 29,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x538a"
+  },
+  {
+    "id": 17,
+    "keyword": "MODU",
+    "name": "CONTROL MODULE",
+    "initial_room": 101,
+    "examination": "\rIt's part of a reactor!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5390"
+  },
+  {
+    "id": 18,
+    "keyword": "FLAS",
+    "name": "FLASHLIGHT",
+    "initial_room": 54,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x537e"
+  },
+  {
+    "id": 19,
+    "keyword": "DOOR",
+    "name": "SLIDING DOOR",
+    "initial_room": 30,
+    "examination": "\rIt's made of intertron!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 20,
+    "keyword": "DOOR",
+    "name": "SLIDING DOOR",
+    "initial_room": 65,
+    "examination": "\rIt's made of intertron!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 21,
+    "keyword": "HATC",
+    "name": "HATCH",
+    "initial_room": 24,
+    "examination": "\rIt's made of intertron!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 22,
+    "keyword": "NOTE",
+    "name": "NOTE",
+    "initial_room": 91,
+    "examination": "I see writing on it!\r",
+    "reading": "\rIt says to make a radiation vaccine, COMBINE SEAWEED with a MUSHROOM!\r",
+    "drawing": "0x5366"
+  },
+  {
+    "id": 23,
+    "keyword": "FISH",
+    "name": "SMALL FISH",
+    "initial_room": 79,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x55a5"
+  },
+  {
+    "id": 24,
+    "keyword": "ROCK",
+    "name": "SMALL ROCK",
+    "initial_room": 95,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x55ab"
+  },
+  {
+    "id": 25,
+    "keyword": "BOUL",
+    "name": "BIG BOULDER",
+    "initial_room": 69,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x558b"
+  },
+  {
+    "id": 26,
+    "keyword": "PIPE",
+    "name": "LEAD PIPE",
+    "initial_room": 36,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5384"
+  },
+  {
+    "id": 27,
+    "keyword": "SHUT",
+    "name": "SHUTTER",
+    "initial_room": 61,
+    "examination": "\rWater is dripping from the seals.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 28,
+    "keyword": "LETT",
+    "name": "LETTER",
+    "initial_room": 97,
+    "examination": "I see writing on it!\r",
+    "reading": "\rAll you can read is ...\r\rWe will buy the pills from you!\r",
+    "drawing": "0x536c"
+  },
+  {
+    "id": 29,
+    "keyword": " ILL",
+    "name": "PILL",
+    "initial_room": 255,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 30,
+    "keyword": "BUTT",
+    "name": "BUTTON",
+    "initial_room": 40,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x0"
+  },
+  {
+    "id": 31,
+    "keyword": "REAC",
+    "name": "DAMAGED REACTOR",
+    "initial_room": 66,
+    "examination": "\rI see nothing special.\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5541"
+  },
+  {
+    "id": 32,
+    "keyword": "POOL",
+    "name": "POOL OF METAL",
+    "initial_room": 49,
+    "examination": "\rIt was HUEY-14!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x5450"
+  },
+  {
+    "id": 33,
+    "keyword": "WREC",
+    "name": "WRECKAGE",
+    "initial_room": 99,
+    "examination": "\rIt was a sub from the dome!\r",
+    "reading": "\rRead what?\r",
+    "drawing": "0x55b7"
+  }
+]
