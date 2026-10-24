@@ -1,0 +1,14 @@
+{
+  "MISTAR_MSX1.ROM": {
+    "bytes": 32768,
+    "sha256": "54de7a8232680f8cab0c5e9da3472296cc1dbc5f467d4c9e53e43174a4618c44"
+  },
+  "MISTAR_MSX1.DSK": {
+    "bytes": 737280,
+    "sha256": "9d250222af4c1dd398556612e7f8bcf8290b072cb7ebd1249f7e025f487d875a"
+  },
+  "MISTAR_MSX2.ROM": {
+    "bytes": 32768,
+    "sha256": "cb8968b00ce823c05ae385391bc4dc93eca86c2d4365b7ed4980e120e86f8794"
+  }
+}

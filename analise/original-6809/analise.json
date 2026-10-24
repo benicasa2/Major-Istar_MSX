@@ -1,0 +1,74 @@
+{
+  "bin_sha256": "2406db7801d6be78f212c639d5f124cd7f6468d8942275ff2b5598e15722b9ac",
+  "payload_bytes": 19361,
+  "load": "0x2460",
+  "end": "0x7000",
+  "entry": "0x2540",
+  "reachable_instructions": 643,
+  "reachable_bytes": 1579,
+  "unclassified_bytes": 17782,
+  "call_targets": [
+    "0x2f3a",
+    "0x32d9",
+    "0x352d",
+    "0x354d",
+    "0x35a9",
+    "0x3607",
+    "0x369b",
+    "0x38c2",
+    "0x38de",
+    "0x38e9",
+    "0x38ee",
+    "0x38f6",
+    "0x3906",
+    "0x391a",
+    "0x3982",
+    "0x3989",
+    "0x3990",
+    "0x39df",
+    "0x39e1",
+    "0x3a1e",
+    "0x3a3e",
+    "0x3a6a",
+    "0x3a76",
+    "0x3a9e",
+    "0x3ad6",
+    "0x3ae2",
+    "0x3ae7",
+    "0xa390",
+    "0xbdca"
+  ],
+  "unresolved_flow": [
+    [
+      9805,
+      "JSR [ZA000]"
+    ],
+    [
+      9824,
+      "JSR [ZA000]"
+    ],
+    [
+      10083,
+      "JMP [Z6C57]"
+    ],
+    [
+      13989,
+      "JSR [,X]"
+    ],
+    [
+      14919,
+      "JSR [ZA000]"
+    ]
+  ],
+  "conflicts": [
+    14715,
+    14715,
+    13641,
+    13641,
+    13641,
+    13641,
+    14550
+  ],
+  "exact_source_roundtrip": true,
+  "rea_used_as_engine": false
+}

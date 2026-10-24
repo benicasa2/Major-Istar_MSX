@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-24",
+  "emulator": "openMSX 21.0",
+  "cpu_frequency_control": "emulated hardware mode, z80_freq_locked=true; no forced overclock",
+  "cases": {
+    "C-BIOS_MSX2-turbo-toggle": {
+      "before-main": {
+        "time_s": 3.8419544942164436,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "game-entry": {
+        "time_s": 3.842102557727309,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "presentation-9828": {
+        "time_s": 7.24909255226572,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "presentation-14923": {
+        "time_s": 18.49595018361272,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "initial-prompt": {
+        "time_s": 29.689549370101506,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "down-input": {
+        "time_s": 30.689551605022423,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "down-complete": {
+        "time_s": 45.18198569929977,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "F2-first": {
+        "time_s": 45.881987794538134,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "F2-second": {
+        "time_s": 46.68198583898233,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      }
+    },
+    "MISTAR_Panasonic_SemTurbo-turbo": {
+      "before-main": {
+        "time_s": 3.8419544942164436,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "game-entry": {
+        "time_s": 3.842116805348166,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "presentation-9828": {
+        "time_s": 7.249106799886578,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "presentation-14923": {
+        "time_s": 18.495964431233578,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "initial-prompt": {
+        "time_s": 29.689563617722364,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "down-input": {
+        "time_s": 30.68956585264328,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "down-complete": {
+        "time_s": 45.18199994692063,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      }
+    },
+    "Panasonic_FS-A1WSX-normal": {
+      "before-main": {
+        "time_s": 5.260535626734683,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "game-entry": {
+        "time_s": 5.260905785511846,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 1,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "presentation-9828": {
+        "time_s": 8.681641102430616,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 1,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "presentation-14923": {
+        "time_s": 19.935366645760844,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 1,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "initial-prompt": {
+        "time_s": 31.135798544228386,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 1,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "down-input": {
+        "time_s": 32.13580077914931,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 1,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "down-complete": {
+        "time_s": 46.6351145187447,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 1,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      }
+    },
+    "Panasonic_FS-A1WSX-turbo": {
+      "before-main": {
+        "time_s": 5.260178598117917,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "game-entry": {
+        "time_s": 5.260525197103728,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "presentation-9828": {
+        "time_s": 7.541152669776,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "presentation-14923": {
+        "time_s": 15.545479662918051,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "initial-prompt": {
+        "time_s": 23.536181460679128,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "down-input": {
+        "time_s": 24.536181740044242,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "down-complete": {
+        "time_s": 35.699607817939615,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      }
+    },
+    "Panasonic_FS-A1WSX-turbo-toggle": {
+      "before-main": {
+        "time_s": 5.260178598117917,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "game-entry": {
+        "time_s": 5.260525197103728,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "presentation-9828": {
+        "time_s": 7.541152669776,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "presentation-14923": {
+        "time_s": 15.545479662918051,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "initial-prompt": {
+        "time_s": 23.536181460679128,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "down-input": {
+        "time_s": 24.536181740044242,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "down-complete": {
+        "time_s": 35.699607817939615,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "F2-first": {
+        "time_s": 36.39961084439503,
+        "available": 1,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "F2-second": {
+        "time_s": 37.19960795762217,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      }
+    },
+    "Panasonic_FS-A1WX-turbo": {
+      "before-main": {
+        "time_s": 5.2936278214130565,
+        "available": 0,
+        "active": 0,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 3579545,
+        "expanded_io_readback": 255
+      },
+      "game-entry": {
+        "time_s": 5.293974420398868,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "presentation-9828": {
+        "time_s": 7.583760412752644,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "presentation-14923": {
+        "time_s": 15.592665268909874,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "initial-prompt": {
+        "time_s": 23.58792127677307,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "down-input": {
+        "time_s": 24.587921556138188,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      },
+      "down-complete": {
+        "time_s": 35.75592791821307,
+        "available": 1,
+        "active": 1,
+        "initial": 0,
+        "shift_bypass": 0,
+        "clock_hz": 5369318,
+        "expanded_io_readback": 255
+      }
+    }
+  },
+  "wsx_performance": {
+    "power_on_to_first_prompt": {
+      "normal_s": 31.135798544228386,
+      "turbo_s": 23.536181460679128
+    },
+    "rom_entry_to_first_prompt": {
+      "normal_s": 25.87489275871654,
+      "turbo_s": 18.2756562635754
+    },
+    "DOWN_including_identical_input": {
+      "normal_s": 14.499313739595394,
+      "turbo_s": 11.163426077895373
+    }
+  },
+  "expanded_io_selection_preserved": true,
+  "turbo_and_normal_vram_identical": true,
+  "turbo_inventory_movement_ram_save_load": "passed",
+  "turbo_vram_conversion": "24576 bytes matched",
+  "physical_hardware_tested": false,
+  "full_game_completed": false,
+  "no_turbo_controller_case": "synthetic C-BIOS configuration with Matsushita device and hasturbo=false; not a physical machine test",
+  "architecture": "Native Z80 video/text/startup with remaining adventure logic in the existing 6809 compatibility core"
+}
