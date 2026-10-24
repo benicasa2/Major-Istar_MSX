@@ -38,7 +38,7 @@ As evidências estão em [testes](edicoes/controles-corrigidos/testes/). Os arqu
 - [Fontes atuais MSX1, DSK e MSX2](edicoes/controles-corrigidos/padrao/fontes/).
 - [Fontes atuais Panasonic turbo](edicoes/controles-corrigidos/panasonic-turbo/fontes/).
 - [Análise do original 6809](analise/original-6809/) e evidências REA/Ghidra em `analise/` e nas edições.
-- Edições anteriores preservadas em `edicoes/cores-otimizado`, `edicoes/panasonic-turbo` e `historico/primeira-versao`. Elas antecedem esta correção; use os arquivos atuais de `roms/`.
+- Os arquivos disponíveis nesta versão do repositório são os da edição corrigida. As entregas anteriores foram substituídas; seus registros permanecem no histórico de commits.
 - [Falha identificada no teste anterior](analise/teste-walkthrough-anterior/RELATORIO.md), corrigida nesta revisão.
 
 Para compilar, use Python e SDCC conforme o LEIA-ME. Dentro da edição desejada, execute `python fontes/build.py --sdcc "CAMINHO/DO/SDCC"`. Atalhos e scripts de teste preservam alguns caminhos do computador de desenvolvimento; ajuste-os em outra instalação.
